@@ -131,6 +131,27 @@ body {
     background-color: var(--button-hover);
 }
 
+/* Content Sections */
+.content-section {
+    height: 100vh;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+.content-section:nth-child(odd) {
+    background-color: #eaeaea;
+}
+
+.content-section:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Adjust Text Colors for Dark Mode */
+.dark-mode .content-section {
+    color: #fff;
+    background-color: #333;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .burger-menu {
